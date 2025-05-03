@@ -1,5 +1,5 @@
-#First run this command: ssh -L 9999:10.142.0.2:80 username@remote-ip
-#This will tunnel localhost:9999 through the remote machine to 10.142.0.2
+#First run this command: ssh -L 9999:<IP of your instance>:80 username@remote-ip
+#This will tunnel localhost:9999 through the remote machine to <IP of you instance>
 #Create another terminal and run the python script below locally
 
 import requests
